@@ -24,10 +24,12 @@ end
 
 struct HomeStats
     stats::MutableStats
+    energy_regenerate::Float64
 end
 
 mutable struct CurrentStats
     stats::MutableStats
+    energy_regenerate::Float64
     action_gauge::Float64
     action_value::Float64
     energy::Float64
